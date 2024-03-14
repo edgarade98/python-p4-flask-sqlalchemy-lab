@@ -4,6 +4,10 @@ from random import choice as rc
 
 from faker import Faker
 
+import sys
+
+sys.path.append('/Users/winnie/python-p4-flask-sqlalchemy-lab/')
+
 from app import app
 from models import db, Zookeeper, Animal, Enclosure
 
